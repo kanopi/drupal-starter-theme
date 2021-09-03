@@ -1,0 +1,224 @@
+// Icon mixin, before
+@mixin icon-before(
+  $icon,
+  $width,
+  $height,
+  $rotate: null,
+  $position: null,
+  $top: null,
+  $right: null,
+  $bottom: null,
+  $left: null,
+  $opacity: null,
+  $background-position: null,
+  $translate_y: null,
+  $margin: null,
+  $padding: null,
+  $z_index: null,
+) {
+  &:before {
+    content: " ";
+    background-image: url('#{$path-to-icons}/#{$icon}.svg');
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: $width;
+    height: $height;
+    background-size: 100%;
+
+    @if $rotate {
+      transform: rotate(#{$rotate}deg);
+    }
+
+    @if $margin {
+      margin: $margin;
+    }
+
+    @if $padding {
+      padding: $padding;
+    }
+
+    @if $position {
+      position: $position;
+    }
+
+    @if $top {
+      top: $top;
+    }
+
+    @if $right {
+      right: $right;
+    }
+
+    @if $bottom {
+      bottom: $bottom;
+    }
+
+    @if $left {
+      left: $left;
+    }
+
+    @if $opacity {
+      opacity: $opacity;
+    }
+
+    @if $background-position {
+      background-position: $background-position;
+    }
+
+    @if $translate_y {
+      transform: translateY($translate_y);
+    }
+
+    @if $z_index {
+      z-index: $z_index;
+    }
+  }
+}
+
+@mixin icon-after(
+  $icon,
+  $width,
+  $height,
+  $rotate: null,
+  $position: null,
+  $top: null,
+  $right: null,
+  $bottom: null,
+  $left: null,
+  $opacity: null,
+  $background-position: null,
+  $translate_y: null,
+  $margin: null,
+  $padding: null,
+  $z_index: null,
+) {
+  &:after {
+    content: " ";
+    background-image: url('#{$path-to-icons}/#{$icon}.svg');
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: $width;
+    height: $height;
+    background-size: 100%;
+
+    @if $rotate {
+      transform: rotate(#{$rotate}deg);
+    }
+
+    @if $margin {
+      margin: $margin;
+    }
+
+    @if $padding {
+      padding: $padding;
+    }
+
+    @if $position {
+      position: $position;
+    }
+
+    @if $top {
+      top: $top;
+    }
+
+    @if $right {
+      right: $right;
+    }
+
+    @if $bottom {
+      bottom: $bottom;
+    }
+
+    @if $left {
+      left: $left;
+    }
+
+    @if $opacity {
+      opacity: $opacity;
+    }
+
+    @if $background-position {
+      background-position: $background-position;
+    }
+
+    @if $translate_y {
+      transform: translateY($translate_y);
+    }
+
+    @if $z_index {
+      z-index: $z_index;
+    }
+  }
+}
+
+@mixin icon(
+  $icon,
+  $width,
+  $height,
+  $rotate: null,
+  $position: null,
+  $top: null,
+  $right: null,
+  $bottom: null,
+  $left: null,
+  $opacity: null,
+  $background-position: null,
+  $translate_y: null,
+  $margin: null,
+  $padding: null,
+  $z_index: null,
+) {
+  background-image: url('#{$path-to-icons}/#{$icon}.svg');
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: $width;
+  height: $height;
+  background-size: 100%;
+
+  @if $rotate {
+    transform: rotate(#{$rotate}deg);
+  }
+
+  @if $margin {
+    $margin: $margin;
+  }
+
+  @if $padding {
+    padding: $padding;
+  }
+
+  @if $position {
+    position: $position;
+  }
+
+  @if $top {
+    top: $top;
+  }
+
+  @if $right {
+    right: $right;
+  }
+
+  @if $bottom {
+    bottom: $bottom;
+  }
+
+  @if $left {
+    left: $left;
+  }
+
+  @if $opacity {
+    opacity: $opacity;
+  }
+
+  @if $background-position {
+    background-position: $background-position;
+  }
+  @if $translate_y {
+    transform: translateY($translate_y);
+  }
+
+  @if $z_index {
+    z-index: $z_index;
+  }
+}

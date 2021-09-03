@@ -1,0 +1,123 @@
+/**
+ * This file is for typography.
+ */
+@import "../global-includes";
+
+body {
+  font-size: 100%;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.86;
+  font-family: $font-arial;
+  color: $c-black;
+}
+
+// Use for common styles if needed.
+#{headings(1, 6)} {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.h1,
+h1 {
+  font-family: $font-verdana;
+  @include rem(font-size, 38px);
+  @include rem(margin-bottom, 19px);
+  line-height: 1.3;
+  @include rem(letter-spacing,  2.5px);
+
+  @include mq($from: large) {
+    @include rem(font-size, 50px);
+    @include rem(margin-bottom, 26px);
+  }
+}
+
+.h2,
+h2 {
+  font-family: $font-verdana;
+  @include rem(font-size, 24px);
+  @include rem(margin-bottom, 14px);
+  line-height: 1.4;
+  @include rem(letter-spacing,  2.8px);
+
+  @include mq($from: large) {
+    @include rem(font-size, 28px);
+    @include rem(margin-bottom, 16px);
+  }
+}
+
+.h3,
+h3 {
+  font-family: $font-arial;
+  @include rem(font-size, 20px);
+  @include rem(margin-bottom, 10px);
+  @include rem(letter-spacing,  1.4px);
+
+  @include mq($from: large) {
+    @include rem(font-size, 24px);
+    @include rem(margin-bottom, 12px);
+  }
+}
+
+.h4,
+h4 {
+  font-family: $font-arial;
+  @include rem(font-size, 20px);
+  @include rem(margin-bottom, 10px);
+  @include rem(letter-spacing,  1px);
+}
+
+.h5,
+h5 {
+  @include rem(font-size, 18px);
+  @include rem(margin-bottom, 9px);
+  @include rem(letter-spacing,  1px);
+}
+
+.h6,
+h6 {
+  @include rem(font-size, 16px);
+  @include rem(margin-bottom, 8px);
+  @include rem(letter-spacing,  1px);
+}
+
+p {
+  @include rem(font-size, 17px);
+  @include rem(margin-bottom, 22px);
+  margin-top: 0;
+  line-height: 1.5;
+  @include rem(letter-spacing,  1.12px);
+
+  @include mq($from: large) {
+    @include rem(font-size, 16px);
+  }
+}
+
+li {
+  @include rem(font-size, 17px);
+  @include rem(margin-bottom, 8px);
+  margin-top: 0;
+  line-height: 1.5;
+  @include rem(letter-spacing,  1.12px);
+
+  @include mq($from: large) {
+    @include rem(font-size, 16px);
+  }
+}
+
+hr {
+  border-top: 1px solid $c-light-gray;
+}
+
+.legal-font {
+  @include rem(font-size, 14px);
+  color: $c-white;
+  letter-spacing: normal;
+  line-height: normal;
+  margin: 0;
+
+  @include mq($from: large) {
+    @include rem(font-size, 12px);
+  }
+}

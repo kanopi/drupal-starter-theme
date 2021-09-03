@@ -1,0 +1,12 @@
+/**
+ * This file is for utility classes.
+ */
+@import "../global-includes";
+
+.visually-hidden {
+  @include visually-hidden();
+}
+
+.is-hidden {
+  display: none;
+}

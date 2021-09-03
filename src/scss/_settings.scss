@@ -1,0 +1,73 @@
+// Image and svg paths.
+// example usage:
+// background-image: url("#{$path-to-images}/yada-yada.png");
+// Noting that these paths may not be ideal but it is so it can work in CKEditor and the front-end.
+$path-to-icons: "/themes/custom/drupal_starter_theme/dist/icon/svg";
+$path-to-images: "/themes/custom/drupal_starter_theme/dist/images";
+
+// Breakpoints.
+// Map for sass MQ.
+$mq-breakpoints: (
+  narrow: 375px,
+  narrow_plus: 520px,
+  medium: 768px,
+  medium_plus: 920px,
+  large: 1024px,
+  large_plus: 1140px,
+  wide: 1280px,
+  wide_plus: 1440px,
+  mega_wide: 1600px,
+);
+
+// Uncomment to debug breakpoints.
+//$mq-show-breakpoints: (narrow, narrow_plus, medium, medium, medium_plus, large, wide, x_wide);
+
+// Hover and focus states.
+// Can be used like so: #{$a-tags-hover} {...
+$a-tags-hover: '&:active,&:focus,&:hover';
+
+// Colors.
+$c-sfo-blue: #00587c;
+
+$c-navy-blue: #003e58;
+$c-light-green: #97e6d4;
+$c-green: #008768;
+$c-light-orange: #f99d54;
+$c-orange: #ff6105;
+$c-light-violet: #d975ca;
+$c-violet: #a51890;
+$c-light-turquoise: #d8e7eb;
+$c-turquoise: #008392;
+$c-yellow: #ffd93f;
+$c-blue-ice: #f4f7f9;
+$c-white: #fff;
+$c-light-gray: #f2f3f3;
+$c-dark-gray: #53565a;
+$c-medium-gray: #dadada;
+$c-black: #232323;
+
+// Font families.
+$font-arial: Arial, Helvetica Neue, Helvetica, sans-serif;
+$font-verdana: Verdana, Geneva, sans-serif;
+
+// Color map.
+$palette: (
+  c-blue-ice: $c-blue-ice,
+  c-sfo-blue: $c-sfo-blue,
+  c-navy-blue: $c-navy-blue,
+  c-light-green: $c-light-green,
+  c-green: $c-green,
+  c-light-orange: $c-light-orange,
+  c-orange: $c-orange,
+  c-light-violet: $c-light-violet,
+  c-violet: $c-violet,
+  c-light-turquoise: $c-light-turquoise,
+  c-turquoise: $c-turquoise,
+  c-yellow: $c-yellow,
+  c-white: $c-white,
+  c-light-gray: $c-light-gray,
+  c-medium-gray: $c-medium-gray,
+  c-dark-gray: $c-dark-gray,
+  c-black: $c-black,
+);
+

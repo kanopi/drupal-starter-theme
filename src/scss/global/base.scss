@@ -1,0 +1,20 @@
+/**
+ * This file is for base styles. Using sparingly.
+ */
+
+// Global box sizing / border-box. (This goes first before anything else.)
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+// This file is for some base settings.
+@import "../global-includes";
+
+// Note, normalize in this file only.
+@import "../normalize";

@@ -1,0 +1,133 @@
+/**
+ * This file is for button and links.
+ */
+/*
+Buttons and links.
+ */
+.btn,
+.form-item.form-type-managed-file label,
+a.btn,
+input[type="file"],
+input[type="submit"] {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.9375rem;
+  transition: all 0.6s ease 0s;
+  box-shadow: 0 12px 25px 0 rgba(0, 0, 0, 0.17);
+  display: inline-block;
+  padding: 14px 55px;
+  line-height: 1.8;
+  color: #232323;
+  border: 2px solid #ffd93f;
+  background-color: #ffd93f;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  overflow: hidden;
+}
+
+.btn:active,
+.form-item.form-type-managed-file label:active,
+.btn:focus,
+.form-item.form-type-managed-file label:focus,
+.btn:hover,
+.form-item.form-type-managed-file label:hover,
+a.btn:active,
+a.btn:focus,
+a.btn:hover,
+input[type="file"]:active,
+input[type="file"]:focus,
+input[type="file"]:hover,
+input[type="submit"]:active,
+input[type="submit"]:focus,
+input[type="submit"]:hover {
+  box-shadow: none;
+}
+
+.btn.btn-secondary,
+.form-item.form-type-managed-file label.btn-secondary,
+a.btn.btn-secondary,
+input[type="file"].btn-secondary,
+input[type="submit"].btn-secondary {
+  border: 2px solid #fff;
+  background-color: #fff;
+  color: #232323;
+}
+
+.btn.btn-secondary:active,
+.form-item.form-type-managed-file label.btn-secondary:active,
+.btn.btn-secondary:focus,
+.form-item.form-type-managed-file label.btn-secondary:focus,
+.btn.btn-secondary:hover,
+.form-item.form-type-managed-file label.btn-secondary:hover,
+a.btn.btn-secondary:active,
+a.btn.btn-secondary:focus,
+a.btn.btn-secondary:hover,
+input[type="file"].btn-secondary:active,
+input[type="file"].btn-secondary:focus,
+input[type="file"].btn-secondary:hover,
+input[type="submit"].btn-secondary:active,
+input[type="submit"].btn-secondary:focus,
+input[type="submit"].btn-secondary:hover {
+  box-shadow: none;
+  border: 2px solid #ffd93f;
+}
+
+.form-item.form-type-managed-file {
+  position: relative;
+}
+
+.form-item.form-type-managed-file input[type="file"] {
+  visibility: hidden;
+}
+
+.cke_editable a:not(.btn),
+.l-content a:not(.btn) {
+  color: #003e58;
+  transition: all 0.6s ease 0s;
+  text-decoration: underline;
+  padding: 3px;
+}
+
+.cke_editable a:not(.btn):active,
+.cke_editable a:not(.btn):focus,
+.cke_editable a:not(.btn):hover,
+.l-content a:not(.btn):active,
+.l-content a:not(.btn):focus,
+.l-content a:not(.btn):hover {
+  text-decoration: none;
+  background-color: #003e58;
+  color: #fff;
+}
+
+a.link {
+  font-size: 1.0625rem;
+  line-height: 1.47;
+  letter-spacing: 0.43px;
+  position: relative;
+}
+
+.cke_editable a.link,
+.l-content a.link {
+  text-decoration: none;
+}
+
+.cke_editable a.link:active,
+.l-content a.link:active,
+.cke_editable a.link:focus,
+.l-content a.link:focus,
+.cke_editable a.link:hover,
+.l-content a.link:hover {
+  background-color: transparent;
+  text-decoration: underline;
+  color: #ff6105;
+}
+
+/*# sourceMappingURL=buttons-links.css.map */

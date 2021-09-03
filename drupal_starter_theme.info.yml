@@ -1,0 +1,20 @@
+name: Blue Skies
+type: theme
+base theme: false
+description: 'Theme for FlySFO.com'
+core_version_requirement: ^8 || ^9
+
+libraries:
+  - drupal_starter_theme/main
+  - drupal_starter_theme/admin-tabs
+  - drupal_starter_theme/header
+
+ckeditor_stylesheets:
+  - dist/css/ckeditor.css
+
+regions:
+  utility: 'Utility'
+  header: 'Header'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  footer: 'Footer'

@@ -1,0 +1,142 @@
+/**
+ * This file is for typography.
+ */
+body {
+  font-size: 100%;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.86;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  color: #232323;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.h1,
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 2.375rem;
+  margin-bottom: 1.1875rem;
+  line-height: 1.3;
+  letter-spacing: 0.15625rem;
+}
+
+@media (min-width: 64em) {
+  .h1,
+  h1 {
+    font-size: 3.125rem;
+    margin-bottom: 1.625rem;
+  }
+}
+
+.h2,
+h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.875rem;
+  line-height: 1.4;
+  letter-spacing: 0.175rem;
+}
+
+@media (min-width: 64em) {
+  .h2,
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.h3,
+h3 {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+  letter-spacing: 0.0875rem;
+}
+
+@media (min-width: 64em) {
+  .h3,
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+.h4,
+h4 {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+  letter-spacing: 0.0625rem;
+}
+
+.h5,
+h5 {
+  font-size: 1.125rem;
+  margin-bottom: 0.5625rem;
+  letter-spacing: 0.0625rem;
+}
+
+.h6,
+h6 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.0625rem;
+}
+
+p {
+  font-size: 1.0625rem;
+  margin-bottom: 1.375rem;
+  margin-top: 0;
+  line-height: 1.5;
+  letter-spacing: 0.07rem;
+}
+
+@media (min-width: 64em) {
+  p {
+    font-size: 1rem;
+  }
+}
+
+li {
+  font-size: 1.0625rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  line-height: 1.5;
+  letter-spacing: 0.07rem;
+}
+
+@media (min-width: 64em) {
+  li {
+    font-size: 1rem;
+  }
+}
+
+hr {
+  border-top: 1px solid #f2f3f3;
+}
+
+.legal-font {
+  font-size: 0.875rem;
+  color: #fff;
+  letter-spacing: normal;
+  line-height: normal;
+  margin: 0;
+}
+
+@media (min-width: 64em) {
+  .legal-font {
+    font-size: 0.75rem;
+  }
+}
+
+/*# sourceMappingURL=typography.css.map */

@@ -1,0 +1,115 @@
+/**
+ * This file is for the site header.
+ */
+@import "../global-includes";
+@import "../global/typography";
+
+#site-branding {
+  display: inline-block;
+  padding: 10px;
+}
+
+#sfo_logo {
+  height: auto;
+  width: 72px;
+}
+
+.page-header {
+  align-items: center;
+  display: flex;
+}
+
+.menu {
+  &.menu--legal,
+  &.menu--main,
+  &.menu--legal-footer {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      letter-spacing: normal;
+      line-height: normal;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  &.menu--legal,
+  &.menu--legal-footer {
+    background: $c-sfo-blue;
+    text-align: right;
+
+    a,
+    span {
+      @extend .legal-font;
+      padding: 6px 12px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &.menu--legal {
+    li::after {
+      color: $c-white;
+      content: "|";
+    }
+
+    li:last-child::after {
+      display: none;
+    }
+  }
+
+  &.menu--main {
+
+    li {
+      letter-spacing: 1px;
+    }
+
+    a,
+    span {
+      @include link-effect();
+      color: $c-black;
+      padding: 12px 24px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      @include link-effect();
+      text-stroke: 1px $c-black;
+      -webkit-text-stroke: 1px $c-black;
+    }
+
+    @include ie11 {
+      a:hover {
+        text-shadow: 0 0 1px $c-black;
+      }
+    }
+  }
+}
+
+.copyright {
+  float: left;
+  margin-top: 6px !important;
+  margin-left: 12px !important;
+
+  &:before {
+    color: #fff;
+    content: "\00a9";
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &:after {
+    display: none;
+  }
+
+  a,
+  span {
+    padding-left: 6px !important;
+  }
+}

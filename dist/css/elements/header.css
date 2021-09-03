@@ -1,0 +1,262 @@
+/**
+ * This file is for the site header.
+ */
+/**
+ * This file is for typography.
+ */
+body {
+  font-size: 100%;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.86;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  color: #232323;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.h1,
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 2.375rem;
+  margin-bottom: 1.1875rem;
+  line-height: 1.3;
+  letter-spacing: 0.15625rem;
+}
+
+@media (min-width: 64em) {
+  .h1,
+  h1 {
+    font-size: 3.125rem;
+    margin-bottom: 1.625rem;
+  }
+}
+
+.h2,
+h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.875rem;
+  line-height: 1.4;
+  letter-spacing: 0.175rem;
+}
+
+@media (min-width: 64em) {
+  .h2,
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.h3,
+h3 {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+  letter-spacing: 0.0875rem;
+}
+
+@media (min-width: 64em) {
+  .h3,
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+.h4,
+h4 {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+  letter-spacing: 0.0625rem;
+}
+
+.h5,
+h5 {
+  font-size: 1.125rem;
+  margin-bottom: 0.5625rem;
+  letter-spacing: 0.0625rem;
+}
+
+.h6,
+h6 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.0625rem;
+}
+
+p {
+  font-size: 1.0625rem;
+  margin-bottom: 1.375rem;
+  margin-top: 0;
+  line-height: 1.5;
+  letter-spacing: 0.07rem;
+}
+
+@media (min-width: 64em) {
+  p {
+    font-size: 1rem;
+  }
+}
+
+li {
+  font-size: 1.0625rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  line-height: 1.5;
+  letter-spacing: 0.07rem;
+}
+
+@media (min-width: 64em) {
+  li {
+    font-size: 1rem;
+  }
+}
+
+hr {
+  border-top: 1px solid #f2f3f3;
+}
+
+.legal-font,
+.menu.menu--legal a,
+.menu.menu--legal span,
+.menu.menu--legal-footer a,
+.menu.menu--legal-footer span {
+  font-size: 0.875rem;
+  color: #fff;
+  letter-spacing: normal;
+  line-height: normal;
+  margin: 0;
+}
+
+@media (min-width: 64em) {
+  .legal-font,
+  .menu.menu--legal a,
+  .menu.menu--legal span,
+  .menu.menu--legal-footer a,
+  .menu.menu--legal-footer span {
+    font-size: 0.75rem;
+  }
+}
+
+#site-branding {
+  display: inline-block;
+  padding: 10px;
+}
+
+#sfo_logo {
+  height: auto;
+  width: 72px;
+}
+
+.page-header {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu.menu--legal,
+.menu.menu--main,
+.menu.menu--legal-footer {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu.menu--legal li,
+.menu.menu--main li,
+.menu.menu--legal-footer li {
+  display: inline-block;
+  letter-spacing: normal;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.menu.menu--legal,
+.menu.menu--legal-footer {
+  background: #00587c;
+  text-align: right;
+}
+
+.menu.menu--legal a,
+.menu.menu--legal span,
+.menu.menu--legal-footer a,
+.menu.menu--legal-footer span {
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.menu.menu--legal a:hover,
+.menu.menu--legal-footer a:hover {
+  text-decoration: underline;
+}
+
+.menu.menu--legal li::after {
+  color: #fff;
+  content: "|";
+}
+
+.menu.menu--legal li:last-child::after {
+  display: none;
+}
+
+.menu.menu--main li {
+  letter-spacing: 1px;
+}
+
+.menu.menu--main a,
+.menu.menu--main span {
+  transition: all 0.6s ease 0s;
+  color: #232323;
+  padding: 12px 24px;
+  text-decoration: none;
+}
+
+.menu.menu--main a:hover {
+  transition: all 0.6s ease 0s;
+  text-stroke: 1px #232323;
+  -webkit-text-stroke: 1px #232323;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .menu.menu--main a:hover {
+    text-shadow: 0 0 1px #232323;
+  }
+}
+
+.copyright {
+  float: left;
+  margin-top: 6px !important;
+  margin-left: 12px !important;
+}
+
+.copyright:before {
+  color: #fff;
+  content: "\00a9";
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.copyright:after {
+  display: none;
+}
+
+.copyright a,
+.copyright span {
+  padding-left: 6px !important;
+}
+
+/*# sourceMappingURL=header.css.map */

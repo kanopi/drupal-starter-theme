@@ -1,0 +1,107 @@
+/**
+ * This file is for button and links.
+ */
+@import "../global-includes";
+
+/*
+Buttons and links.
+ */
+
+// ******** Buttons ************
+.btn,
+a.btn,
+input[type="file"],
+input[type="submit"] {
+  font-family: $font-arial;
+  font-weight: bold;
+  @include rem(font-size, 15px);
+  @include link-effect();
+  @include dropshadow();
+  display: inline-block;
+  padding: 14px 55px;
+  line-height: 1.8;
+  color: $c-black;
+  border: 2px solid $c-yellow;
+  background-color: $c-yellow;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  // Resets for various devices.
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  overflow: hidden;
+
+  #{$a-tags-hover} {
+    box-shadow: none;
+  }
+
+  &.btn-secondary {
+    border: 2px solid $c-white;
+    background-color: $c-white;
+    color: $c-black;
+
+    #{$a-tags-hover} {
+      box-shadow: none;
+      border: 2px solid $c-yellow;
+    }
+  }
+}
+
+// file upload.
+.form-item.form-type-managed-file {
+  position: relative;
+
+  input[type="file"] {
+    visibility: hidden;
+  }
+
+  label {
+    @extend .btn;
+  }
+}
+
+// ******** Links ************
+.cke_editable,
+.l-content {
+  a:not(.btn) {
+    color: $c-navy-blue;
+    @include link-effect();
+    text-decoration: underline;
+    padding: 3px;
+
+    #{$a-tags-hover} {
+      text-decoration: none;
+      background-color: $c-navy-blue;
+      color: $c-white;
+    }
+  }
+}
+
+a.link {
+  @include rem(font-size, 17px);
+  line-height: 1.47;
+  letter-spacing: 0.43px;
+  position: relative;
+
+  .cke_editable &,
+  .l-content & {
+    text-decoration: none;
+  }
+
+  #{$a-tags-hover} {
+    .cke_editable &,
+    .l-content & {
+      background-color: transparent;
+      text-decoration: underline;
+      color: $c-orange;
+    }
+  }
+}
+

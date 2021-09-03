@@ -1,0 +1,141 @@
+/**
+ * This file is for button and links.
+ */
+/* Theme color map */
+.color-c-blue-ice {
+  color: #f4f7f9;
+}
+
+.bg-c-blue-ice {
+  background-color: #f4f7f9;
+}
+
+.color-c-sfo-blue {
+  color: #00587c;
+}
+
+.bg-c-sfo-blue {
+  background-color: #00587c;
+}
+
+.color-c-navy-blue {
+  color: #003e58;
+}
+
+.bg-c-navy-blue {
+  background-color: #003e58;
+}
+
+.color-c-light-green {
+  color: #97e6d4;
+}
+
+.bg-c-light-green {
+  background-color: #97e6d4;
+}
+
+.color-c-green {
+  color: #008768;
+}
+
+.bg-c-green {
+  background-color: #008768;
+}
+
+.color-c-light-orange {
+  color: #f99d54;
+}
+
+.bg-c-light-orange {
+  background-color: #f99d54;
+}
+
+.color-c-orange {
+  color: #ff6105;
+}
+
+.bg-c-orange {
+  background-color: #ff6105;
+}
+
+.color-c-light-violet {
+  color: #d975ca;
+}
+
+.bg-c-light-violet {
+  background-color: #d975ca;
+}
+
+.color-c-violet {
+  color: #a51890;
+}
+
+.bg-c-violet {
+  background-color: #a51890;
+}
+
+.color-c-light-turquoise {
+  color: #d8e7eb;
+}
+
+.bg-c-light-turquoise {
+  background-color: #d8e7eb;
+}
+
+.color-c-turquoise {
+  color: #008392;
+}
+
+.bg-c-turquoise {
+  background-color: #008392;
+}
+
+.color-c-yellow {
+  color: #ffd93f;
+}
+
+.bg-c-yellow {
+  background-color: #ffd93f;
+}
+
+.color-c-white {
+  color: #fff;
+}
+
+.bg-c-white {
+  background-color: #fff;
+}
+
+.color-c-light-gray {
+  color: #f2f3f3;
+}
+
+.bg-c-light-gray {
+  background-color: #f2f3f3;
+}
+
+.color-c-medium-gray {
+  color: #dadada;
+}
+
+.bg-c-medium-gray {
+  background-color: #dadada;
+}
+
+.color-c-dark-gray {
+  color: #53565a;
+}
+
+.bg-c-dark-gray {
+  background-color: #53565a;
+}
+
+.color-c-black {
+  color: #232323;
+}
+
+.bg-c-black {
+  background-color: #232323;
+}
+
+/*# sourceMappingURL=colors.css.map */

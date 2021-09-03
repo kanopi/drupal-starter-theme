@@ -1,0 +1,22 @@
+main:
+  css:
+    base:
+      dist/css/global/base.css: { }
+      dist/css/global/blockquote.css: { }
+      dist/css/global/buttons-links.css: { }
+      dist/css/global/colors.css: { }
+      dist/css/global/form.css: { }
+      dist/css/global/lists.css: { }
+      dist/css/global/table.css: { }
+      dist/css/global/typography.css: { }
+      dist/css/global/utility.css: { }
+
+admin-tabs:
+  css:
+    base:
+      dist/css/elements/admin-tabs.css: { }
+
+header:
+  css:
+    base:
+      dist/css/elements/header.css: { }

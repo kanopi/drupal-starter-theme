@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming.
+ *
+ * Add new functions and partials in the includes folder. ie includes/field.inc.
+ */
+
+$includes_path = dirname(__FILE__) . '/includes/*.inc';
+foreach (glob($includes_path) as $filename) {
+  require_once dirname(__FILE__) . '/includes/' . basename($filename);
+}

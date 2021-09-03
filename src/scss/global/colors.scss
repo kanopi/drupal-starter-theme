@@ -1,0 +1,18 @@
+/**
+ * This file is for button and links.
+ */
+@import "../global-includes";
+
+// Utility classes for colors.
+/* Theme color map */
+@each $color_name in map-keys($palette) {
+  $color_value: map-get($palette, $color_name);
+
+  .color-#{$color_name} {
+    color: $color_value;
+  }
+
+  .bg-#{$color_name} {
+    background-color: $color_value;
+  }
+}
