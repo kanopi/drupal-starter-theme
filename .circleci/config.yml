@@ -1,0 +1,12 @@
+version: 2.1
+
+orbs:
+  ci-tools: kanopi/ci-tools@1.4.8
+
+workflows:
+  phpcs-drupal:
+    jobs:
+      - ci-tools/phpcs-drupal:
+          extensions: 'php,module,inc,install,test,profile,theme,css,info,txt,md'
+          location: ./
+          standards: 'Drupal,DrupalPractice'
