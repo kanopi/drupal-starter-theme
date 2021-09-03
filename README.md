@@ -1,1 +1,1 @@
-# Blue Skies Theme
+# Kanopi Drupal Starter Theme for Drupal 9 
