@@ -1,0 +1,19 @@
+{
+  "name": "kanopi/drupal_starter_theme",
+  "type": "drupal-theme",
+  "description": "KAnopi starter theme for Drupal 9 builds. Has critical css support and gulp.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/kanopi/drupal_starter_theme",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/kanopi/drupal_starter_theme/issues",
+    "source": "https://github.com/kanopi/drupal_starter_theme"
+  },
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/9"
+    }
+  }
+}
