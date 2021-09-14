@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  ci-tools: kanopi/ci-tools@1.4.8
+  ci-tools: kanopi/ci-tools@1.7.1
 
 workflows:
   phpcs-drupal:
