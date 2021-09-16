@@ -14,7 +14,6 @@ module.exports = {
       },
     ],
     urls: {
-      '/style-guide': 'style-guide',
       '/': 'default-critical',
       // add more here as needed.
     },
