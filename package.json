@@ -39,7 +39,7 @@
     "gulp-terser": "^1.4.0",
     "gulp-uglify": "^3.0.2",
     "imagemin-pngquant": "^8.0.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "os-tmpdir": "^2.0.0",
     "request-promise": "^4.2.6",
     "require-dir": "^1.2.0",
